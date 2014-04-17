@@ -1,0 +1,45 @@
+#---------------------------------------------------------------------------------
+#- 
+#- Author: Adam Howard - ahowar31@utk.edu, Ben Olson
+#- ECE-351: Course Project - Greenhouse Monitor
+#- Notes: Constraint file binding system to board I/O.
+#-
+#---------------------------------------------------------------------------------
+
+NET "btn_bus[3]" LOC = A7;
+NET "btn_bus[2]" LOC = M4;
+NET "btn_bus[1]" LOC = C11;
+NET "btn_bus[0]" LOC = G12;
+NET "digi_bus[3]" LOC = F12;
+NET "digi_bus[2]" LOC = J12;
+NET "digi_bus[1]" LOC = M13;
+NET "digi_bus[0]" LOC = K14;
+NET "led_bus[7]" LOC = G1;
+NET "led_bus[6]" LOC = P4;
+NET "led_bus[5]" LOC = N4;
+NET "led_bus[4]" LOC = N5;
+NET "led_bus[3]" LOC = P6;
+NET "led_bus[2]" LOC = P7;
+NET "led_bus[1]" LOC = M11;
+NET "led_bus[0]" LOC = M5;
+NET "seg_bus[7]" LOC = L14;
+NET "seg_bus[6]" LOC = H12;
+NET "seg_bus[5]" LOC = N14;
+NET "seg_bus[4]" LOC = N11;
+NET "seg_bus[3]" LOC = P12;
+NET "seg_bus[2]" LOC = L13;
+NET "seg_bus[1]" LOC = M12;
+NET "seg_bus[0]" LOC = N13;
+NET "swi_bus[7]" LOC = N3;
+NET "swi_bus[6]" LOC = E2;
+NET "swi_bus[5]" LOC = F3;
+NET "swi_bus[4]" LOC = G3;
+NET "swi_bus[3]" LOC = B4;
+NET "swi_bus[2]" LOC = K3;
+NET "swi_bus[1]" LOC = L3;
+NET "swi_bus[0]" LOC = P11;
+NET "mclk" LOC = B8;
+NET "rst" LOC = A9;
+NET "als_clk" LOC = B5;
+NET "als_sda" LOC = J3;
+NET "als_cs" LOC = B2;
